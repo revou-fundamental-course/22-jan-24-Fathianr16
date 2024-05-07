@@ -1,11 +1,7 @@
 // Banner Auto Slide
 let currentImageIndex = 0;
 const backgroundImageUrls = [
-    "url('../22-jan-24-Fathianr16/assets/images/banner1.jpg')",
-    "url('../22-jan-24-Fathianr16/assets/images/banner2.jpg')",
-    "url('../22-jan-24-Fathianr16/assets/images/banner3.jpg')",
-    "url('../22-jan-24-Fathianr16/assets/images/banner4.jpg')",
-    "url('../22-jan-24-Fathianr16/assets/images/banner5.jpg')",
+    "url('../TimelessTrinkets/assets/images/Banner2.jpg')",
 ];
 
 function changeBackground(direction) {

@@ -1,6 +1,6 @@
 /* General */
 :root{
-    --green: #3f4234;
+    --green: #24251F;
 }
 
 *{
@@ -32,7 +32,7 @@ section{
     color: #f8f3e6;
     padding: 1rem;
     margin: 2rem 0;
-    background: #849974;
+    background: #DFBD69;
 }
 
 .heading span{
@@ -52,7 +52,7 @@ section{
 }
 
 .btn:hover{
-    background: #849974;
+    background: #DFBD69;
 }
 
 .button{
@@ -67,7 +67,7 @@ section{
 }
 
 .button:hover{
-    background: #849974;
+    background:#DFBD69;
 }
 
 /* Header */
@@ -76,7 +76,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    background-color: #849974;
+    background-color:#DFBD69;
     padding: 2rem 9%;
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 80vh;
-    background: url("../22-jan-24-Fathianr16/assets/images/banner1.jpg") no-repeat;
+    background: url("../TimelessTrinkets/assets/images/Banner2.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -171,199 +171,6 @@ header .fa-bars{
 
 .next {
     right: 20px;
-}
-
-/* Home */
-.home .content{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    color: #3f4234;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
-    font-size: 1.75rem;
-}
-
-.home .validate{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.1rem;
-    color: #3f4234;
-    font-size: 1.75rem;
-}
-
-.home .validate span{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.1rem;
-    color: #849974;
-    font-size: 1.75rem;
-}
-
-.home .profile{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.1rem;
-    color: #3f4234;
-    font-size: 2rem;
-}
-
-.home .job{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.1rem;
-    color: #3f4234;
-    margin-top: .5rem;
-    font-size: 1.75rem;
-}
-
-.home .row{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    align-items: center;
-    width: 100%;
-}
-
-.home .row .col{
-    flex: 1 1 50%;
-    justify-content: center;
-}
-
-.home .row form{
-    flex: 1 1 40rem;
-    padding: 2rem 2.5rem;
-    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
-    border: .1rem solid rgba(225, 68, 68, 0.1);
-    background: #fff;
-    border-radius: .5rem;
-    width: 100%;
-}
-
-.home .row .image{
-    flex: 1 1 40rem;
-}
-
-.home .row .image img{
-    width: 91.5%;
-    height: auto;
-}
-
-.home .row form .box{
-    padding: 1rem;
-    font-size: 1.7rem;
-    color: #849974;
-    text-transform: none;
-    border: .1rem solid rgba(0, 0, 0, .3);
-    border-radius: .5rem;
-    margin: .7rem 0;
-    width: 100%;
-}
-
-.home .row form .box:focus{
-    border-color: var(--green);
-}
-
-.home .row form textarea{
-    height: 8rem;
-    resize: none;
-}
-
-.home .row form label{
-    display: block;
-    font-size: 1.7rem;
-    color: #849974;
-    padding: .5rem;
-    margin-top: .5rem;
-}
-
-.home .row form select{
-    width: 100%;
-    padding: 1rem;
-    margin: .7rem 0;
-    border-radius: .5rem;
-    border: .1rem solid rgba(0, 0, 0, .1);
-    font-size: 1.7rem;
-    color: #849974;
-    margin-bottom: 1rem;
-}
-
-.home .row form select:focus{
-    border-color: var(--green);
-}
-
-.home.row form .btn{
-    background: #849974;
-    color: #f8f3e6;
-    padding: 1rem 2rem;
-    font-size: 1.7rem;
-    border-radius: .5rem;
-    cursor: pointer;
-    transition: background 0.3s ease-in-out;
-}
-
-.home .row form .btn:hover{
-    background: var(--green);
-}
-
-.profile{
-    flex-wrap: wrap;
-    align-items: center;
-    display: flex;
-}
-
-.image-container{
-    border-radius: 10%; 
-    margin-right: 70px; 
-}
-
-.profile-image{
-    width: 100px; 
-    height: 100px;
-    border-radius: 50%; 
-    margin-top: 40%;
-    margin-left: 45%;
-}
-
-.textprofile{
-    display: flex;
-    flex-direction: column;
-    margin-top: 5%;
-}
-
-/* Feature */
-.feature{
-    max-width: 575px;
-    text-align: left;
-}
-
-.features-container{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-}
-
-.features img{
-    display: block;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-top: 20px;
-    margin-bottom: 15px;
-}
-  
-.features p{
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #3f4234;
-}
-  
-.features h4{
-    font-size: 20px;
-    font-weight: bold;
-    color: #3f4234;
 }
 
 /* Package */
@@ -447,7 +254,7 @@ header .fa-bars{
 
 .ourpackage .box-container .box .content h3{
     font-size: 2.15rem;
-    color: #849974;
+    color: #DFBD69;
 }
 
 .ourpackage .box-container .box .content .desc{
@@ -504,7 +311,7 @@ header .fa-bars{
 
 /* Footer */
 .footer{
-    background-color: #849974;
+    background-color: #DFBD69;
     color: #f8f3e6;
     padding: 2rem 9%;
 }
