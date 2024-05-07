@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fathia's Digital Marketing</title>
+    <title>Fathia's Coding Project</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
@@ -13,7 +13,7 @@
         <input type="checkbox" name="" id="toggler">
         <label for="toggler" class="fas fa-bars"></label>
 
-        <a href="#" class="logo">Timeless<span>Trinkets</span></a>
+        <a href="#" class="logo">Gro<span>Mart</span></a>
 
         <nav class="navbar">
             <a href="#banner">Home</a>
@@ -25,136 +25,182 @@
     <!-- Banner Section -->
     <section class="banner" id="banner">
         <div class="content">
-            <h3><i>Timeless Trinkets</i></h3>
-            <span>Toko <i>numismatics</i> di Indonesia</span>
-            <p>Menyediakan uang kuno dengan harga yang terjangkau dan kualitas terbaik.</p>
-            <a href="#ourpackage" class="button">Lihat Katalog</a>
+            <h3>Top Rated E-Groceries Shop in Indonesia</h3>
+            <span>Every day with best ingredients</span>
+            <p>The quality of the ingredients we offer comes from the best local farms and agriculture</p>
+            <a href="#ourpackage" class="button">Explore our packages</a>
         </div>
         <button class="slider-button prev" onclick="changeBackground(-1)">❮</button>
         <button class="slider-button next" onclick="changeBackground(1)">❯</button>
     </section>
 
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="row">
+            <form action="" name="formsubmit" id="contactForm" onsubmit="return validateForm()">
+                <h1 class="heading">Contact<span> Us</span></h1>
+                <h2 class="content">Sales will contact you 1x24 hours after we receive the data.</h2>
+                <label for="name">Your name:</label>
+                <input type="text" placeholder="First and last name" class="box" id="name" name="name">
+                <label for="email">Email address:</label>
+                <input type="text" placeholder="example@email.com" class="box" id="email" name="email">
+                <label for="number">Phone number:</label>
+                <input type="text" placeholder="62xxxxxxxxxxx" class="box" id="number" name="number">
+                <label for="package">What are you interested in?</label>
+                <select id="package" name="package">
+                    <option value="" disabled selected>Select Option</option>
+                    <option value="vegetable">Fresh Vegetable</option>
+                    <option value="fruit">Fresh Fruit</option>
+                    <option value="delivery">Instant Delivery</option>
+                    <option value="ingredient">Kitchen Ingredient</option>
+                    <option value="kitchen">Kitchen Set</option>
+                    <option value="bundling">Bundling Set</option>
+                </select>
+                <label for="message">Your message:</label>
+                <textarea type="text" placeholder="Message" class="box" id="message" name="message" cols="30" rows="10"></textarea>
+                <input id="submit" type="submit" value="Send" class="btn">
+            </form>
+
+            <div class="col">
+                <div class="profile">
+                    <div class="image-container">
+                        <img src="assets/images/me.jpg" alt="" class="profile-image">
+                    </div>
+                    <div class="textprofile">
+                        <h3 class="profile">Fathia Nur Rahmah</h3>
+                        <span class="job"><i>Data Analyst, 20</i></span>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="assets/images/contact.png" alt="">
+                </div>
+            </div>
+
+            <!-- Validation -->
+            <div>
+                <h2 class="validate">Hello<span id="sender-name"></span>thank you for contacting us.</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Feature Section -->
+    <section class="features" id="features">
+        <h1 class="heading">Our<span> Features</span></h1>
+        <div class="features-container">
+            <div class="feature">
+                <img src="assets/images/feature1.jpg" alt="Faature 1">
+                <h4>Good Quality Control</h4>
+                <p>Sayur dan buah-buahan dipilih melalui quality control yang ketat oleh ahli yang terpercaya</p>
+            </div>
+            <div class="feature">
+                <img src="assets/images/feature2.jpg" alt="Faature 2">
+                <h4>Local Agriculture</h4>
+                <p>Bekerja sama dengan petani lokal untuk menghasilkan bahan makanan yang sehat</p>
+            </div>
+            <div class="feature">
+                <img src="assets/images/feature3.jpeg" alt="Faature 3">
+                <h4>Organized Warehouse</h4>
+                <p>Sistem pergudangan yang terorganisir dapat membantu proses pendistribusian dengan baik</p>
+            </div>
+            <div class="feature">
+                <img src="assets/images/feature4.jpg" alt="Faature 3">
+                <h4>Support Go Green</h4>
+                <p>Penggunaan kantung belanja yang praktis menggunakan tas, paper bag, dan kardus</p>
+            </div>
+        </div>
+    </section>
+
     <!-- Our Package Section -->
     <section class="ourpackage" id="ourpackage">
-        <h1 class="heading">Ketersediaan<span> Barang</span></h1>
+        <h1 class="heading">Our<span> Packages</span></h1>
         <div class="box-container">
             <div class="box">
-                <span class="newpackage">Uang Koin</span>
+                <span class="newpackage">Superior Package</span>
                 <div class="image">
-                    <img src="assets/images/Koin1.jpg" alt="">
+                    <img src="assets/images/vegetables.jpg" alt="">
                     <div class="icons">
                         <a href="#banner" class="fas fa-share"></a>
-                        <a href="#callus" class="package-btn">Hubungi Kami</a>
+                        <a href="#home" class="package-btn">Contact us</a>
                     </div>
                 </div>
                 <div class="content">
-                    <h3>Uang Koin Nederlandsch Indie</h3>
-                    <div class="desc">Uang koin Belanda pecahan 2.5 cent keluaran tahun 1897</div>
+                    <h3>Fresh Vegetable</h3>
+                    <div class="desc">Sayuran segar langsung dari sumber pertanian terbaik</div>
                 </div>
             </div>
 
             <div class="box">
-                <span class="newpackage">Uang Koin</span>
+                <span class="newpackage">Superior Package</span>
                 <div class="image">
-                    <img src="assets/images/Koin2.jpg" alt="">
+                    <img src="assets/images/fruits.jpg" alt="">
                     <div class="icons">
                         <a href="#banner" class="fas fa-share"></a>
-                        <a href="#callus" class="package-btn">Hubungi Kami</a>
+                        <a href="#home" class="package-btn">Contact us</a>
                     </div>
                 </div>
                 <div class="content">
-                    <h3>Uang Koin Indonesia</h3>
-                    <div class="desc">Uang koin Indonesia pecahan Rp100 keluaran tahun 1973</div>
+                    <h3>Fresh Fruit</h3>
+                    <div class="desc">Buah dengan kualitas terbaik dari lokal atau import dan harga yang terbaik</div>
                 </div>
             </div>
 
             <div class="box">
-                <span class="newpackage">Uang Koin</span>
+                <span class="newpackage">New Package</span>
                 <div class="image">
-                    <img src="assets/images/Koin3.jpg" alt="">
+                    <img src="assets/images/delivery.png" alt="">
                     <div class="icons">
                         <a href="#banner" class="fas fa-share"></a>
-                        <a href="#callus" class="package-btn">Hubungi Kami</a>
+                        <a href="#home" class="package-btn">Contact us</a>
                     </div>
                 </div>
                 <div class="content">
-                    <h3>Uang Koin Indonesia</h3>
-                    <div class="desc">Uang koin Indonesia pecahan Rp100 keluaran tahun 1978</div>
+                    <h3>Instant Delivery</h3>
+                    <div class="desc">Di kirim instan oleh kurir yang telah di training dengan SOP untuk menjaga kondisi belanja kamu</div>
                 </div>
             </div>
 
             <div class="box">
-                <span class="newpackage">Uang Koin</span>
+                <span class="newpackage">Superior Package</span>
                 <div class="image">
-                    <img src="assets/images/Koin4.jpg" alt="">
+                    <img src="assets/images/ingredient.jpg" alt="">
                     <div class="icons">
                         <a href="#banner" class="fas fa-share"></a>
-                        <a href="#callus" class="package-btn">Hubungi Kami</a>
+                        <a href="#home" class="package-btn">Contact us</a>
                     </div>
                 </div>
                 <div class="content">
-                    <h3>Uang Koin Indonesia</h3>
-                    <div class="desc">Uang koin Indonesia pecahan Rp100-Rp500 keluaran tahun 1991</div>
+                    <h3>Kitchen Ingredient</h3>
+                    <div class="desc">Bumbu dapur lengkap untuk keperluan memasak kamu</div>
                 </div>
             </div>
 
             <div class="box">
-                <span class="newpackage">Uang Koin</span>
+                <span class="newpackage">New Package</span>
                 <div class="image">
-                    <img src="assets/images/Koin5.jpg" alt="">
+                    <img src="assets/images/kitchen.jpg" alt="">
                     <div class="icons">
                         <a href="#banner" class="fas fa-share"></a>
-                        <a href="#callus" class="package-btn">Hubungi Kami</a>
+                        <a href="#home" class="package-btn">Contact us</a>
                     </div>
                 </div>
                 <div class="content">
-                    <h3>Uang Koin Indonesia</h3>
-                    <div class="desc">Uang koin Indonesia pecahan Rp1000 keluaran tahun 1996</div>
+                    <h3>Kitchen Set</h3>
+                    <div class="desc">Segala jenis alat masak untuk membantu kamu memasak</div>
                 </div>
             </div>
 
             <div class="box">
-                <span class="newpackage">Uang Kertas</span>
+                <span class="newpackage">Superior Package</span>
                 <div class="image">
-                    <img src="assets/images/Kertas1.jpg" alt="">
+                    <img src="assets/images/bundling.jpg" alt="">
                     <div class="icons">
                         <a href="#banner" class="fas fa-share"></a>
-                        <a href="#callus" class="package-btn">Hubungi Kami</a>
+                        <a href="#home" class="package-btn">Contact us</a>
                     </div>
                 </div>
                 <div class="content">
-                    <h3>Uang Kertas Indonesia</h3>
-                    <div class="desc">Uang kertas Indonesia pecahan Rp100 keluaran tahun 1992</div>
-                </div>
-            </div>
-
-            <div class="box">
-                <span class="newpackage">Uang Kertas</span>
-                <div class="image">
-                    <img src="assets/images/Kertas2.jpg" alt="">
-                    <div class="icons">
-                        <a href="#banner" class="fas fa-share"></a>
-                        <a href="#callus" class="package-btn">Hubungi Kami</a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>Uang Kertas Indonesia</h3>
-                    <div class="desc">Uang kertas Indonesia pecahan Rp500 keluaran tahun 1992</div>
-                </div>
-            </div>
-
-            <div class="box">
-                <span class="newpackage">Uang Kertas</span>
-                <div class="image">
-                    <img src="assets/images/Kertas3.jpg" alt="">
-                    <div class="icons">
-                        <a href="#banner" class="fas fa-share"></a>
-                        <a href="#callus" class="package-btn">Hubungi Kami</a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>Uang Kertas Indonesia</h3>
-                    <div class="desc">Uang kertas Indonesia pecahan Rp1000 keluaran tahun 1992</div>
+                    <h3>Bundling Set</h3>
+                    <div class="desc">Bingung masak apa? sudah tersedia paket untuk kamu masak di dapur mu</div>
                 </div>
             </div>
         </div>
@@ -163,9 +209,9 @@
     <!-- Call Us Section -->
     <section class="callus" id="callus">
         <div class="callus-content">
-            <h2>Apakah Anda tertarik?</h2>
-            <p>Silakan hubungi kami melalui WhatsApp untuk mengetahui harga secara lebih lanjut</p>
-            <a href="#home" class="button">Hubungi Kami</a>
+            <h2>Do you have any questions?</h2>
+            <p>Please call us if you have any questions about our features and our packages</p>
+            <a href="#home" class="button">Call us here</a>
         </div>
         <div class="callus-image">
             <img src="assets/images/callus.png" alt="Callus Image">
@@ -176,15 +222,21 @@
     <section class="footer" id="footer">
         <div class="box-container">
             <div class="box">
-                <h3>Akses Cepat</h3>
+                <h3>Quick Links</h3>
                 <a href="#banner">Home</a>
                 <a href="#ourpackage">Our Package</a>
                 <a href="#callus">Call Us</a>
             </div>
 
             <div class="box">
-                <h3>Tentang Kami</h3>
-                <a href="#callus">WhatssApp</a>
+                <h3>More Links</h3>
+                <a href="#home">Contact Us</a>
+                <a href="#features">Our Feature</a>
+            </div>
+
+            <div class="box">
+                <h3>About Fathia</h3>
+                <a href="https://www.linkedin.com/in/fathianr">LinkedIn</a>
                 <a href="https://www.instagram.com/fathianr_">Instagram</a>
             </div>
         </div>
